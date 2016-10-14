@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="qianfeng.com.customimageview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <qianfeng.com.customimaviewlib.CustomImagView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/photo"
+            app:shape="circle"/>
+
+        <qianfeng.com.customimaviewlib.CustomImagView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/photo"
+            app:shape="oval"/>
+
+        <qianfeng.com.customimaviewlib.CustomImagView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/photo"
+            app:shape="rectangle"/>
+
+        <qianfeng.com.customimaviewlib.CustomImagView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/photo"
+            app:shape="rhombus"/>
+
+        <qianfeng.com.customimaviewlib.CustomImagView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/photo"
+            app:shape="roundrect"/>
+    </LinearLayout>
+
+</ScrollView>

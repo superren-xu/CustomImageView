@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomImagView">
+        <attr name="shape" format="enum">
+            <enum name="circle" value="1"/>
+            <!--圆角矩形-->
+            <enum name="roundrect" value="2"/>
+            <!--矩形-->
+            <enum name="rectangle" value="3"/>
+            <enum name="oval" value="4"/>
+            <!--菱形-->
+            <enum name="rhombus" value="5"/>
+            <!--六边形-->
+            <enum name="hexagon" value="6"/>
+        </attr>
+    </declare-styleable>
+</resources>
